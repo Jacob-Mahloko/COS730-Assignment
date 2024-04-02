@@ -1,0 +1,340 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align left
+\begin_inset Graphics
+	filename C:/Users/polan/Desktop/up LOGO.png
+	lyxscale 40
+	width 50em
+	height 50em
+	BoundingBox 650bp 300bp 2551bp 1000bp
+	clip
+	rotateOrigin leftTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+Department of Computer Science 
+\end_layout
+
+\begin_layout Standard
+\align left
+COS 730 Assignment 1
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+X10 Home Automation
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Research X10 home automation
+\end_layout
+
+\begin_layout Standard
+\align left
+X10 is a communication protocol primarily used for home automation.
+ Developed in 1974 by Pico Electronics [2], X10 was the first step to a
+ practical illustration of home automation.
+ It pioneered the field of home automation soon after its release.
+ It basically enables electronic devices within a home to communicate with
+ each other and the controllers through existing electrical wiring [1].
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Communication Protocol:
+\series default
+ X10 operates on a simple and robust communication protocol.
+ Commands are transmitted over the existing electrical wiring during zero
+ crossings.
+ When a command is sent, it is modulated onto the electrical power line
+ at a 50/60 frequency and received by the intended X10-compatible device[3].
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Devices:
+\series default
+ X10-compatible devices are installed in homes.
+ These devices include light switches, lamp modules, appliance modules,
+ motion sensors, security cameras, thermostats,etc[4].
+ Each X10 device has a unique address code that allows it to be identified
+ and controlled individually or as part of a group[5].
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Control Interfaces: 
+\series default
+Users can control X10 devices using various control interfaces, including
+ [6]:
+\end_layout
+
+\begin_layout Standard
+\align left
+Remote Controls: allow users to send commands to X10 devices from anywhere
+ within the home.
+ Smartphones and Tablets: users can control X10 devices remotely over Wi-Fi
+ or cellular networks that have a collaboration with the latest communication
+ protocols.
+ Computers: X10 software applications running on computers provide advanced
+ control and automation capabilities, allowing users to create schedules,
+ macros, and customised automation routines.
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Commands:
+\series default
+ X10 supports a variety of commands for controlling devices, including:
+\end_layout
+
+\begin_layout Standard
+\align left
+On/Off: Turn devices on or off remotely.
+ Dim/Brighten: Adjust the brightness level of compatible lighting devices.
+ All Lights On/Off: Simultaneously control all lights or devices in a specific
+ group.
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Timers:
+\series default
+ Schedule devices to turn on or off at specific times [6].
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Macros: 
+\series default
+Create sequences of commands to automate complex tasks or scenarios[6].
+\end_layout
+
+\begin_layout Standard
+\align left
+Weaknesses contributed to x10 losing favour:
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Interference:
+\series default
+ X10 communication can be susceptible to interference from other electrical
+ devices and noise on the powerline, leading to reliability issues [7].
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Range: 
+\series default
+X10's range may be limited by the quality of the electrical wiring in a
+ home, and signal degradation over long distances can affect reliability
+ [8].
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Limited Bandwidth:
+\series default
+ X10's bandwidth is limited, which can restrict the number of devices that
+ can be controlled simultaneously and the speed of communication [8].
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Compatibility:
+\series default
+ Compatibility between different X10 devices and manufacturers may vary,
+ leading to interoperability issues [8].
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Lack of security:
+\series default
+ The doesn’t have any encryption [8].
+ 
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Low Performance: 
+\series default
+Due to range, bandwidth and interference [8].
+\end_layout
+
+\begin_layout Standard
+\align left
+[1] T Perry, “The Definitive History Of Smart Home Devices“,Smart home point,Nov
+ember 14 2019, Available: https://www.smarthomepoint.com/history/#1965-to-1991-the
+-necessary-tech-is-invented
+\end_layout
+
+\begin_layout Standard
+\align left
+[3] X10 WWW pages, How x10 works [online], Available : https://web.archive.org/web
+/20190402195647/https://www.smarthomeusa.com/how-x10-works/
+\end_layout
+
+\begin_layout Standard
+\align left
+[4] x10,X10's ActiveHome™ Kit - Welcome to the 21st Century[online], Available:h
+ttps://www.ipcf.org/article/1113/x10s-activehome-trade-kit-welcome-to-the-21st-cen
+tury.html
+\end_layout
+
+\begin_layout Standard
+\align left
+[5] J Burroughs (Microchip technology Inc), (2010,May 1), X-10® Home Automation
+ Using the PIC16F877A [Online], Available: https://ww1.microchip.com/downloads/en/
+AppNotes/00236B.pdf
+\end_layout
+
+\begin_layout Standard
+\align left
+[6] X10, What is x10 Home Automation [online], Available: https://www.x10.com/page
+s/allaboutx10
+\end_layout
+
+\begin_layout Standard
+\align left
+[7] "X10 devices and standards"[online], Available: http://www.x10.com.
+\end_layout
+
+\begin_layout Standard
+\align left
+[8] C.
+ Withanage, R.
+ Ashok, C.
+ Yuen, K.N.
+ Otto, “A Comparison of the Popular Home Automation Technologies“,2014 IEEE
+ Innovative Smart Grid Technologies - Asia (ISGT ASIA), Future Living Lab
+ Engineering Product Development Pillar Singapore University of Technology
+ and Design Singapore,2014,pp 3-4
+\end_layout
+
+\begin_layout Standard
+\align left
+2.
+ Software requirements specification
+\end_layout
+
+\begin_layout Standard
+\align left
+Introduction User Characteristics User Story Functional Requirements Components
+ Functions of each component Use case diagram Traceability Matrix Class/Componen
+t Domain model diagram High level non-functional requirements 
+\end_layout
+
+\end_body
+\end_document
