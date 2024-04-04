@@ -942,7 +942,26 @@ Use case diagram :
 \noindent
 
 \series bold
-Authentication
+Access control
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Description
+\end_layout
+
+\begin_layout Standard
+\noindent
+User wants to be able to register .
+ The user wants to login in order to access the home automatin system.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+The user wants to logout after using the system.
 \end_layout
 
 \begin_layout Standard
@@ -966,6 +985,19 @@ User Management
 
 \begin_layout Standard
 \noindent
+
+\series bold
+Description
+\end_layout
+
+\begin_layout Standard
+\noindent
+User wants to be able to view their profile preferences,configuration.
+ Create and edit their configuration.Edit any personal details.
+\end_layout
+
+\begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename C:/Users/polan/Desktop/use cases/User Management.jpg
 	lyxscale 50
@@ -981,6 +1013,25 @@ User Management
 
 \series bold
 Schedule and Command Management
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Description
+\end_layout
+
+\begin_layout Standard
+\noindent
+user wants to be able to create schedule and set the schedule time also
+ specify the commands that need to run at that time.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+User wish to create customised commands by creating macros.
 \end_layout
 
 \begin_layout Standard
@@ -1004,6 +1055,16 @@ Device Management
 
 \begin_layout Standard
 \noindent
+User wishes to add their personal device as part of the controllers,
+\end_layout
+
+\begin_layout Standard
+\noindent
+edit permission if relevant and register addresses of new home components
+\end_layout
+
+\begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename C:/Users/polan/Desktop/use cases/Device Management.jpg
 	lyxscale 50
@@ -1023,6 +1084,12 @@ Logging and reporting
 
 \begin_layout Standard
 \noindent
+User would like to get some insight of usuage of home automation system,
+ inspect for any perfomance issues.
+\end_layout
+
+\begin_layout Standard
+\noindent
 \begin_inset Graphics
 	filename C:/Users/polan/Desktop/use cases/logging and reporting.jpg
 	lyxscale 50
@@ -1038,6 +1105,12 @@ Logging and reporting
 
 \series bold
 Controller Management
+\end_layout
+
+\begin_layout Standard
+\noindent
+The user would like to control the devices in the house using thier personal
+ device by send command to internal controller/server.
 \end_layout
 
 \begin_layout Standard
