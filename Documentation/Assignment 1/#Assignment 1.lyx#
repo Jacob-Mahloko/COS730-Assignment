@@ -79,9 +79,11 @@
 \align left
 \begin_inset Graphics
 	filename C:/Users/polan/Desktop/up LOGO.png
-	lyxscale 60
-	width 50em
-	height 50em
+	lyxscale 40
+	width 30em
+	height 15em
+	BoundingBox 650bp 300bp 2551bp 1000bp
+	clip
 	rotateOrigin leftTop
 
 \end_inset
@@ -110,10 +112,12 @@ X10 Home Automation
 \align left
 
 \series bold
-Research X10 home automation
+1.
+ Research X10 home automation
 \end_layout
 
 \begin_layout Standard
+\noindent
 \align left
 X10 is a communication protocol primarily used for home automation.
  Developed in 1974 by Pico Electronics [2], X10 was the first step to a
@@ -208,6 +212,8 @@ Create sequences of commands to automate complex tasks or scenarios[6].
 
 \begin_layout Standard
 \align left
+
+\series bold
 Weaknesses contributed to x10 losing favour:
 \end_layout
 
@@ -272,6 +278,452 @@ Due to range, bandwidth and interference [8].
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+Concurrent Commands:
+\series default
+ X10 concurrents signals had chance of degrading or loss of commands [9].
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+2.
+ Software requirements specification
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Introduction 
+\end_layout
+
+\begin_layout Standard
+X10 home automation was introduced by pico electronics with the vision of
+ enhancing functionality and convience of home automations.
+ The trivial tasks and control of home appliance, lighting ,home security
+ systems ,etc could easily be automated and controlled by one device.
+ X10 scope encompassed a fully autotimated home systems that rely on Electrical
+ wiring to ensure well-being and comfort.
+ This scope includes software,hardware needed to completely automate homes
+ [10].
+ The long term goals for x10 home automation was for a robust,affordable,
+ user-friendly, reliable and convient for home owners.
+ The X10 home automation serves as a time saving and convient system to
+ home owners.
+ Home owners have are freed from trivial tasks and scheduled events, x10
+ relieves owners by automating the scheduled events through triggers that
+ complete the tasks for owners based on personalised configuration.
+ The x10 is a robust protocol that helps communicate messages between controller
+s and modules but it has a couple of limitation, extension of cloud solution
+ to remove x10 limitations will be the area of focus.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+User Characteristics 
+\end_layout
+
+\begin_layout Itemize
+Homeowner status: Users should be responsible of property and have permission
+ to install permanent setups and renters could have less permanent solutions.
+\end_layout
+
+\begin_layout Itemize
+Interested in home automation: users are likely to be interested in smart
+ homes and its potential benefit.Creates an expectation.
+\end_layout
+
+\begin_layout Itemize
+Technically inclined to a certain level: users should be able to understand
+ usage terms , maintainance manual and customisation manual.
+\end_layout
+
+\begin_layout Itemize
+Physical attributes: Users should be able to operate the remote/device used
+ to communicate with coontroller of the home system.
+\end_layout
+
+\begin_layout Itemize
+Read : users should be able to read in order to be able to operate the home
+ automation system efficiently.
+\end_layout
+
+\begin_layout Itemize
+budget and affordability: users can be able to purchase upgrades for home
+ systems to have new improvements and be compatible to other systems incase
+ of any need of integration
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+User Story 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Functional Requirements 
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Components : 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Hardware Component (Assumption : Not to be too emphasised)
+\end_layout
+
+\begin_layout Itemize
+Transmitter
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Reciever
+\end_layout
+
+\begin_layout Itemize
+powerline communication modules
+\end_layout
+
+\begin_layout Itemize
+wireless modules
+\end_layout
+
+\begin_layout Itemize
+sensors
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Software Components
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Notification Managements 
+\end_layout
+
+\begin_layout Standard
+manages notification based on signals of sent and recieved from devices
+\end_layout
+
+\begin_layout Itemize
+Device Management
+\end_layout
+
+\begin_layout Standard
+manages the device configuration for the home system
+\end_layout
+
+\begin_layout Itemize
+Data management (additional component)
+\end_layout
+
+\begin_layout Standard
+stores relevant data that is needed to application to work
+\end_layout
+
+\begin_layout Itemize
+Cloud Service (additional component)
+\end_layout
+
+\begin_layout Standard
+provides cloud solutions that aid the home automation
+\end_layout
+
+\begin_layout Itemize
+Logging and Reporting (additional Component)
+\end_layout
+
+\begin_layout Standard
+helps trsck and produce report based on recorded tracking
+\end_layout
+
+\begin_layout Itemize
+Schdule Management
+\end_layout
+
+\begin_layout Standard
+helps manage and control any scheduled event/macros for home systsem
+\end_layout
+
+\begin_layout Itemize
+Access Control System (additional component)
+\end_layout
+
+\begin_layout Standard
+allows users to be identified 
+\end_layout
+
+\begin_layout Itemize
+Controller interface
+\end_layout
+
+\begin_layout Standard
+enables communication between physical controllers and the devices
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+Functions of each component :
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align left
+
+\series bold
+Notification Managements 
+\end_layout
+
+\begin_layout Enumerate
+Remote
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+user able to see different led light in state change of devices
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Smartphone
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+enable to see status of module
+\end_layout
+
+\begin_layout Enumerate
+notified when devices fails or successful
+\end_layout
+
+\begin_layout Enumerate
+popup message to devices that are faulty (additional)
+\end_layout
+
+\begin_layout Enumerate
+notified when scheduled commands are about to be executed
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Device Management
+\end_layout
+
+\begin_layout Enumerate
+ability to add/remove PDA devices onto controller interface
+\end_layout
+
+\begin_layout Enumerate
+remove and edit permission of devices on controller interface
+\end_layout
+
+\begin_layout Enumerate
+registerating house address of devices newly connected to electrical wiring
+ circuit
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Data management
+\end_layout
+
+\begin_layout Enumerate
+store credentials
+\end_layout
+
+\begin_layout Enumerate
+store device address
+\end_layout
+
+\begin_layout Enumerate
+store default and customised schedules 
+\end_layout
+
+\begin_layout Enumerate
+store user preferences and settings
+\end_layout
+
+\begin_layout Enumerate
+backup and restore personalised feature settings
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cloud Service
+\end_layout
+
+\begin_layout Enumerate
+analytics
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+insights on usage of home system (frequently used and unused)
+\end_layout
+
+\begin_layout Enumerate
+check frequent failures 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Security and Storage
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+store information in cloud
+\end_layout
+
+\begin_layout Enumerate
+monitoring any data breaches
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Logging and Reporting 
+\end_layout
+
+\begin_layout Enumerate
+track users footprint throughout applications
+\end_layout
+
+\begin_layout Enumerate
+detect point of failure and cause of failure
+\end_layout
+
+\begin_layout Enumerate
+auditing the system due to some breach
+\end_layout
+
+\begin_layout Enumerate
+create comprehensive reports for dashboard
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Schdule Management and Command Manage
+\end_layout
+
+\begin_layout Enumerate
+create schedule
+\end_layout
+
+\begin_layout Enumerate
+store schedule
+\end_layout
+
+\begin_layout Enumerate
+create macros
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Access Control System 
+\end_layout
+
+\begin_layout Enumerate
+authentication
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+login 
+\end_layout
+
+\begin_layout Enumerate
+signup
+\end_layout
+
+\begin_layout Enumerate
+logout
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+authorisation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+verify user is granted permission for specific commands
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Controller interface
+\end_layout
+
+\begin_layout Enumerate
+switching on home devices 
+\end_layout
+
+\begin_layout Enumerate
+switching off home devices
+\end_layout
+
+\begin_layout Enumerate
+selecting devices to control
+\end_layout
+
+\begin_layout Enumerate
+register device/remote to control devices
+\end_layout
+
+\begin_layout Standard
+\align left
+Use case diagram :
+\end_layout
+
+\begin_layout Standard
+\align left
+Traceability Matrix :
+\end_layout
+
+\begin_layout Standard
+\align left
+Class/Component Domain model diagram 
+\end_layout
+
+\begin_layout Standard
+\align left
+High level non-functional requirements 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Bibliography
+\end_layout
+
+\begin_layout Standard
 \align left
 [1] T Perry, “The Definitive History Of Smart Home Devices“,Smart home point,Nov
 ember 14 2019, Available: https://www.smarthomepoint.com/history/#1965-to-1991-the
@@ -322,16 +774,52 @@ s/allaboutx10
 \end_layout
 
 \begin_layout Standard
-\align left
-2.
- Software requirements specification
+[9] B Roshni, D.M.
+ Patel , D.K.
+ Patel.
+ (2019, October), 
+\begin_inset Quotes eld
+\end_inset
+
+Survey on IOT based Home Automation 
+\begin_inset Quotes erd
+\end_inset
+
+,International Journal of Computer Applications.
+ vol 177, issue 11.
+ Available: https://d1wqtxts1xzle7.cloudfront.net/71276118/ijca2019919529-libre.pdf
+?1633341198=&response-content-disposition=inline%3B+filename%3DSurvey_on_IOT_bas
+ed_Home_Automation.pdf&Expires=1712007964&Signature=Y1kEtCBN8gTCPgajIb08NIxfYbm3x
+Kcg0DsxSRBTQO2W0nd7y9ene5zeo2DTnEl3m8Pkoerkdu-XI059SgOfFIuT5mRFc2hVpkrT30pIBOkwm
+p-TlhPGxxoFvKNEi9ZZa0zW4fnZIHl1dfA2Q3lC2IeXfHdUcltp2Hhn5eM1jkVJ05wcJ-uBU-G8DqqQI
+gN0~2By-HDnCc3aCSphwnAcoq6vCwy66ajunMVMcBaXHgN4-9rko1yUn0Go3wXFHDWkK81kOgCeGSgNd
+mgO8ftL~s8vj1MYx6c8wctJCzhHfWCtMqXd48PvOttEPrDDmUNx2o7-gYNvmJt~C9wNZLAZDA__&Key-
+Pair-Id=APKAJLOHF5GGSLRBV4ZA
 \end_layout
 
 \begin_layout Standard
-\align left
-Introduction User Characteristics User Story Functional Requirements Components
- Functions of each component Use case diagram Traceability Matrix Class/Componen
-t Domain model diagram High level non-functional requirements 
+[10] 
+\begin_inset Quotes eld
+\end_inset
+
+My life at x10
+\begin_inset Quotes erd
+\end_inset
+
+[Online], Available: https://web.archive.org/web/20161015080410/http://www.hometoys.
+com/content.php?url=/htinews/oct99/articles/rye/rye.htm
+\end_layout
+
+\begin_layout Standard
+[11] 
+\begin_inset Quotes eld
+\end_inset
+
+ActivePhone Pro
+\begin_inset Quotes erd
+\end_inset
+
+ [online],Available: https://kbase.x10.com/wiki/ActivePhone_Pro#Security_Options
 \end_layout
 
 \end_body
