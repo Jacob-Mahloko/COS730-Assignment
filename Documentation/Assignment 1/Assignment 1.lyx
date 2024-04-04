@@ -102,16 +102,24 @@ COS 730 Assignment 1
 \end_layout
 
 \begin_layout Standard
+PJ Mahloko u20503289
+\end_layout
+
+\begin_layout Standard
 \align center
 
+\series bold
 \size large
 X10 Home Automation
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing double
+\noindent
 \align left
 
 \series bold
+\size large
 1.
  Research X10 home automation
 \end_layout
@@ -224,7 +232,7 @@ Weaknesses contributed to x10 losing favour:
 Interference:
 \series default
  X10 communication can be susceptible to interference from other electrical
- devices and noise on the powerline, leading to reliability issues [7].
+ devices and noise on the power line, leading to reliability issues [7].
 \end_layout
 
 \begin_layout Standard
@@ -282,18 +290,23 @@ Due to range, bandwidth and interference [8].
 \series bold
 Concurrent Commands:
 \series default
- X10 concurrents signals had chance of degrading or loss of commands [9].
+ X10 concurrent signals had chance of degrading or loss of commands [9].
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing double
+\noindent
 \align left
 
 \series bold
+\size larger
 2.
  Software requirements specification
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 \align left
 
 \series bold
@@ -301,17 +314,19 @@ Introduction
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align block
 X10 home automation was introduced by pico electronics with the vision of
- enhancing functionality and convience of home automations.
+ enhancing functionality and convenience of home automation.
  The trivial tasks and control of home appliance, lighting ,home security
  systems ,etc could easily be automated and controlled by one device.
- X10 scope encompassed a fully autotimated home systems that rely on Electrical
+ X10 scope encompassed a fully automated home systems that rely on Electrical
  wiring to ensure well-being and comfort.
  This scope includes software,hardware needed to completely automate homes
  [10].
  The long term goals for x10 home automation was for a robust,affordable,
- user-friendly, reliable and convient for home owners.
- The X10 home automation serves as a time saving and convient system to
+ user-friendly, reliable and convenient for home owners.
+ The X10 home automation serves as a time saving and convenient system to
  home owners.
  Home owners have are freed from trivial tasks and scheduled events, x10
  relieves owners by automating the scheduled events through triggers that
@@ -322,6 +337,8 @@ s and modules but it has a couple of limitation, extension of cloud solution
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 User Characteristics 
@@ -339,12 +356,12 @@ Interested in home automation: users are likely to be interested in smart
 
 \begin_layout Itemize
 Technically inclined to a certain level: users should be able to understand
- usage terms , maintainance manual and customisation manual.
+ usage terms , maintenance manual and customisation manual.
 \end_layout
 
 \begin_layout Itemize
 Physical attributes: Users should be able to operate the remote/device used
- to communicate with coontroller of the home system.
+ to communicate with controller of the home system.
 \end_layout
 
 \begin_layout Itemize
@@ -354,46 +371,254 @@ Read : users should be able to read in order to be able to operate the home
 
 \begin_layout Itemize
 budget and affordability: users can be able to purchase upgrades for home
- systems to have new improvements and be compatible to other systems incase
- of any need of integration
+ systems to have new improvements and be compatible to other systems in
+ case of any need of integration
 \end_layout
 
 \begin_layout Standard
+\noindent
 
 \series bold
+\size large
 User Story 
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
+Overview
+\end_layout
+
+\begin_layout Standard
+X10 home automation user stories will be directed at the clients users.
+ The client would be the actor that uses the application.
+ In this effect it would be the actor who is trying to interact with the
+ home automation system.
+\end_layout
+
+\begin_layout Itemize
+Access Control
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\noindent
+As a client I should be able to :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+sign up on the application so that i can have my credentials and preference
+ stored on the system
+\end_layout
+
+\begin_layout Itemize
+login into application in order to access my stored credentials and preferences
+\end_layout
+
+\begin_layout Itemize
+logout from application and have credentials securely preserved.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+User Management
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+As a client I should be able to :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+view personalise configuration(preference and settings)
+\end_layout
+
+\begin_layout Itemize
+create on own person configuration (preference and settings) of the application
+\end_layout
+
+\begin_layout Itemize
+edit my personal details
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Schedule and command Management
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+As a client I should be able to :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+create a schedule for my command
+\end_layout
+
+\begin_layout Itemize
+create a (macro) sequence of commands
+\end_layout
+
+\begin_layout Itemize
+edit and delete my schedules 
+\end_layout
+
+\begin_layout Itemize
+edit and delete my macros
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Device Management
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+As a client I should be able to:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+add my personal devices to control the home automation system
+\end_layout
+
+\begin_layout Itemize
+able to register new home automation components I add to the electrical
+ wired system.
+\end_layout
+
+\begin_layout Itemize
+view/edit my device permission 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Cloud-Based Monitoring System
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+As a client I should be able to:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+view statistics on usage of the each component
+\end_layout
+
+\begin_layout Itemize
+view failure statistics of the home automation
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Logging and Reporting System
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+As a client I should be able to :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+see the point failure for devices that failed
+\end_layout
+
+\begin_layout Itemize
+see the cause of failure 
+\end_layout
+
+\begin_layout Itemize
+see summary of statistics of home automation (failures and usage metrics)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Notification Management System
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+As a client I should be able to:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+see notification of success of commands
+\end_layout
+
+\begin_layout Itemize
+see notification of failure of commands
+\end_layout
+
+\begin_layout Itemize
+see notification when the Schedule events take place
+\end_layout
+
+\begin_layout Itemize
+see notification of success of storage of schedules and macros
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Controller Management System
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+As a client I should be able to :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+turn on/off a device
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\noindent
+
+\series bold
+\size larger
 Functional Requirements 
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing double
+\noindent
 \align left
 
 \series bold
+\size large
 Components : 
 \end_layout
 
 \begin_layout Standard
 
 \series bold
-Hardware Component (Assumption : Not to be too emphasised)
+Hardware Component (Assumption : Not to be too emphasized)
 \end_layout
 
 \begin_layout Itemize
-Transmitter
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Reciever
+Receiver
 \end_layout
 
 \begin_layout Itemize
-powerline communication modules
+power line communication modules
 \end_layout
 
 \begin_layout Itemize
@@ -404,6 +629,11 @@ wireless modules
 sensors
 \end_layout
 
+\begin_layout Itemize
+Transmitter
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
 
 \series bold
@@ -416,7 +646,7 @@ Notification Managements
 \end_layout
 
 \begin_layout Standard
-manages notification based on signals of sent and recieved from devices
+manages notification based on signals of sent and received from devices
 \end_layout
 
 \begin_layout Itemize
@@ -428,11 +658,12 @@ manages the device configuration for the home system
 \end_layout
 
 \begin_layout Itemize
-Data management (additional component)
+User management (additional component)
 \end_layout
 
 \begin_layout Standard
-stores relevant data that is needed to application to work
+stores relevant data that is needed to application to work for specific
+ user
 \end_layout
 
 \begin_layout Itemize
@@ -448,15 +679,15 @@ Logging and Reporting (additional Component)
 \end_layout
 
 \begin_layout Standard
-helps trsck and produce report based on recorded tracking
+helps track and produce report based on recorded tracking
 \end_layout
 
 \begin_layout Itemize
-Schdule Management
+Schedule Management
 \end_layout
 
 \begin_layout Standard
-helps manage and control any scheduled event/macros for home systsem
+helps manage and control any scheduled event/macros for home system
 \end_layout
 
 \begin_layout Itemize
@@ -476,9 +707,12 @@ enables communication between physical controllers and the devices
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing double
+\noindent
 \align left
 
 \series bold
+\size large
 Functions of each component :
 \end_layout
 
@@ -529,7 +763,7 @@ Device Management
 \end_layout
 
 \begin_layout Enumerate
-ability to add/remove PDA devices onto controller interface
+add/remove PDA devices onto controller interface
 \end_layout
 
 \begin_layout Enumerate
@@ -537,22 +771,22 @@ remove and edit permission of devices on controller interface
 \end_layout
 
 \begin_layout Enumerate
-registerating house address of devices newly connected to electrical wiring
+preregistering house address of devices newly connected to electrical wiring
  circuit
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Data management
+User management
 \end_layout
 
 \begin_layout Enumerate
-store credentials
+Create/store credentials
 \end_layout
 
 \begin_layout Enumerate
-store device address
+/Create/store device address
 \end_layout
 
 \begin_layout Enumerate
@@ -560,7 +794,7 @@ store default and customised schedules
 \end_layout
 
 \begin_layout Enumerate
-store user preferences and settings
+Create/store user preferences and settings
 \end_layout
 
 \begin_layout Enumerate
@@ -574,7 +808,7 @@ Cloud Service
 \end_layout
 
 \begin_layout Enumerate
-analytics
+analytic
 \end_layout
 
 \begin_deeper
@@ -626,7 +860,7 @@ create comprehensive reports for dashboard
 \begin_layout Itemize
 
 \series bold
-Schdule Management and Command Manage
+Schedule Management and Command Management
 \end_layout
 
 \begin_layout Enumerate
@@ -657,7 +891,7 @@ login
 \end_layout
 
 \begin_layout Enumerate
-signup
+sign up
 \end_layout
 
 \begin_layout Enumerate
@@ -666,7 +900,7 @@ logout
 
 \end_deeper
 \begin_layout Enumerate
-authorisation
+authorization
 \end_layout
 
 \begin_deeper
@@ -678,7 +912,7 @@ verify user is granted permission for specific commands
 \begin_layout Itemize
 
 \series bold
-Controller interface
+Controller interface management
 \end_layout
 
 \begin_layout Enumerate
@@ -699,26 +933,306 @@ register device/remote to control devices
 
 \begin_layout Standard
 \align left
+
+\series bold
 Use case diagram :
 \end_layout
 
 \begin_layout Standard
-\align left
+\noindent
+
+\series bold
+Authentication
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename C:/Users/polan/Desktop/use cases/authentication.jpg
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+User Management
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename C:/Users/polan/Desktop/use cases/User Management.jpg
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Schedule and Command Management
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename C:/Users/polan/Desktop/use cases/schedule and command management.jpg
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Device Management
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename C:/Users/polan/Desktop/use cases/Device Management.jpg
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Logging and reporting
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename C:/Users/polan/Desktop/use cases/logging and reporting.jpg
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Controller Management
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename C:/Users/polan/Desktop/use cases/Controller.jpg
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
 Traceability Matrix :
 \end_layout
 
 \begin_layout Standard
-\align left
-Class/Component Domain model diagram 
+\noindent
+
+\series bold
+\size small
+Functional Requirement vs Subsystem
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename C:/Users/polan/Desktop/use cases/RequirementvsSubsystems.jpg
+	lyxscale 60
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+\size small
+Quality requirement vs Subsystem
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename C:/Users/polan/Desktop/use cases/qualityvsSubsystem.jpg
+	lyxscale 60
+	scale 60
+	BoundingBox 0bp 400bp 751bp 773bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Component Domain model diagram
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename C:/Users/polan/Desktop/use cases/componentDiagram.jpg
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+\noindent
 \align left
+
+\series bold
 High level non-functional requirements 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
+\series bold
+Performance
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size scriptsize
+home automation system will work efficiency if concurrent commands can be
+ performed.This would save time for the home owners this also indirectly
+ increases the usability (user friendly).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+interoperability
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size scriptsize
+home automation system software should be able to be used on different devices
+ (computer,smart phones and remotes) in order to accommodate range of users
+ and their specific requirements.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Security
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size scriptsize
+home automation needs to encrypt its data transferred between the parties.
+ This information can be sensitive and lead to vulnerabilities.
+ Authentication of users is vital to confirm credentials and allow only
+ users that have valid credential to control home automation components.
+ Vulnerability detection can reduce number of successful attacks.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Usability
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size scriptsize
+home automation has an intent of being in every household, the software
+ should have a easy learning curve , lead by intuition.
+ Users should be able to use software within 5 minutes.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+modifiability
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size scriptsize
+home automation system have a long life span the software should be easily
+ modifiable in order to integrate new components on top of the old software.
+ Build systems that a decoupled so changes can easily be made
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\paragraph_spacing double
+
+\series bold
+Implementation Suggestion
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/polan/Desktop/use cases/systemOverview.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+\noindent
+
+\series bold
 \size large
 Bibliography
 \end_layout
@@ -726,28 +1240,46 @@ Bibliography
 \begin_layout Standard
 \align left
 [1] T Perry, “The Definitive History Of Smart Home Devices“,Smart home point,Nov
-ember 14 2019, Available: https://www.smarthomepoint.com/history/#1965-to-1991-the
--necessary-tech-is-invented
+ember 14 2019, 
 \end_layout
 
 \begin_layout Standard
 \align left
-[3] X10 WWW pages, How x10 works [online], Available : https://web.archive.org/web
-/20190402195647/https://www.smarthomeusa.com/how-x10-works/
+Available: https://www.smarthomepoint.com/history/#1965-to-1991-the-necessary-tech
+-is-invented
 \end_layout
 
 \begin_layout Standard
 \align left
-[4] x10,X10's ActiveHome™ Kit - Welcome to the 21st Century[online], Available:h
-ttps://www.ipcf.org/article/1113/x10s-activehome-trade-kit-welcome-to-the-21st-cen
-tury.html
+[3] X10 WWW pages, How x10 works [online], 
+\end_layout
+
+\begin_layout Standard
+\align left
+Available : https://web.archive.org/web/20190402195647/https://www.smarthomeusa.com/
+how-x10-works/
+\end_layout
+
+\begin_layout Standard
+\align left
+[4] x10,X10's ActiveHome™ Kit - Welcome to the 21st Century[online],
+\end_layout
+
+\begin_layout Standard
+\align left
+Available:https://www.ipcf.org/article/1113/x10s-activehome-trade-kit-welcome-to-t
+he-21st-century.html
 \end_layout
 
 \begin_layout Standard
 \align left
 [5] J Burroughs (Microchip technology Inc), (2010,May 1), X-10® Home Automation
- Using the PIC16F877A [Online], Available: https://ww1.microchip.com/downloads/en/
-AppNotes/00236B.pdf
+ Using the PIC16F877A [Online], 
+\end_layout
+
+\begin_layout Standard
+\align left
+Available: https://ww1.microchip.com/downloads/en/AppNotes/00236B.pdf
 \end_layout
 
 \begin_layout Standard
@@ -767,10 +1299,18 @@ s/allaboutx10
  Withanage, R.
  Ashok, C.
  Yuen, K.N.
- Otto, “A Comparison of the Popular Home Automation Technologies“,2014 IEEE
- Innovative Smart Grid Technologies - Asia (ISGT ASIA), Future Living Lab
- Engineering Product Development Pillar Singapore University of Technology
- and Design Singapore,2014,pp 3-4
+ Otto, “A Comparison of the Popular Home Automation Technologies“,
+\end_layout
+
+\begin_layout Standard
+\align left
+2014 IEEE Innovative Smart Grid Technologies - Asia (ISGT ASIA),
+\end_layout
+
+\begin_layout Standard
+\align left
+Future Living Lab Engineering Product Development Pillar Singapore University
+ of Technology and Design Singapore,2014,pp 3-4
 \end_layout
 
 \begin_layout Standard
@@ -785,16 +1325,24 @@ Survey on IOT based Home Automation
 \begin_inset Quotes erd
 \end_inset
 
-,International Journal of Computer Applications.
+,
+\end_layout
+
+\begin_layout Standard
+International Journal of Computer Applications.
  vol 177, issue 11.
- Available: https://d1wqtxts1xzle7.cloudfront.net/71276118/ijca2019919529-libre.pdf
-?1633341198=&response-content-disposition=inline%3B+filename%3DSurvey_on_IOT_bas
-ed_Home_Automation.pdf&Expires=1712007964&Signature=Y1kEtCBN8gTCPgajIb08NIxfYbm3x
-Kcg0DsxSRBTQO2W0nd7y9ene5zeo2DTnEl3m8Pkoerkdu-XI059SgOfFIuT5mRFc2hVpkrT30pIBOkwm
-p-TlhPGxxoFvKNEi9ZZa0zW4fnZIHl1dfA2Q3lC2IeXfHdUcltp2Hhn5eM1jkVJ05wcJ-uBU-G8DqqQI
-gN0~2By-HDnCc3aCSphwnAcoq6vCwy66ajunMVMcBaXHgN4-9rko1yUn0Go3wXFHDWkK81kOgCeGSgNd
-mgO8ftL~s8vj1MYx6c8wctJCzhHfWCtMqXd48PvOttEPrDDmUNx2o7-gYNvmJt~C9wNZLAZDA__&Key-
-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+ 
+\end_layout
+
+\begin_layout Standard
+Available: https://d1wqtxts1xzle7.cloudfront.net/71276118/ijca2019919529-libre.pdf?
+1633341198=&response-content-disposition=inline%3B+filename%3DSurvey_on_IOT_base
+d_Home_Automation.pdf&Expires=1712007964&Signature=Y1kEtCBN8gTCPgajIb08NIxfYbm3xK
+cg0DsxSRBTQO2W0nd7y9ene5zeo2DTnEl3m8Pkoerkdu-XI059SgOfFIuT5mRFc2hVpkrT30pIBOkwmp
+-TlhPGxxoFvKNEi9ZZa0zW4fnZIHl1dfA2Q3lC2IeXfHdUcltp2Hhn5eM1jkVJ05wcJ-uBU-G8DqqQIg
+N0~2By-HDnCc3aCSphwnAcoq6vCwy66ajunMVMcBaXHgN4-9rko1yUn0Go3wXFHDWkK81kOgCeGSgNdm
+gO8ftL~s8vj1MYx6c8wctJCzhHfWCtMqXd48PvOttEPrDDmUNx2o7-gYNvmJt~C9wNZLAZDA__&Key-P
+air-Id=APKAJLOHF5GGSLRBV4ZA
 \end_layout
 
 \begin_layout Standard
@@ -806,8 +1354,12 @@ My life at x10
 \begin_inset Quotes erd
 \end_inset
 
-[Online], Available: https://web.archive.org/web/20161015080410/http://www.hometoys.
-com/content.php?url=/htinews/oct99/articles/rye/rye.htm
+[Online], 
+\end_layout
+
+\begin_layout Standard
+Available: https://web.archive.org/web/20161015080410/http://www.hometoys.com/conten
+t.php?url=/htinews/oct99/articles/rye/rye.htm
 \end_layout
 
 \begin_layout Standard
