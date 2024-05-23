@@ -76,6 +76,7 @@ const AuthProvider: FC<PropsWithChildren> = ({ children }) => {
         
         dispatch(loginSuccessAction({...response.data.result}));
         message.success('Login Success');
+        push('/dashboard');
       }
        ). catch (error=> {
         console.error('Login error:', error);
@@ -94,7 +95,7 @@ const AuthProvider: FC<PropsWithChildren> = ({ children }) => {
   }
 
   const getUserDetails = () => {
-      axios.get(`${process.env.NEXT_PUBLIC_API_BASE_URI}services/app/User/GetCurrentUser`,{
+      axios.get(`${process.env.NEXT_PUBLIC_API_BASE_URI}services/app/Session/GetCurrentLoginInformations`,{
         headers:{
           'Authorization': `Bearer ${localStorage.getItem('accessToken')}`,
           'Content-Type': 'application/json',
@@ -104,7 +105,7 @@ const AuthProvider: FC<PropsWithChildren> = ({ children }) => {
         }
       }).then(response=>{
         
-          dispatch(setCurrentUserRequestAction(response.data.result));
+          dispatch(setCurrentUserRequestAction(response.data.result.user));
         })
         .catch( (error) =>{
           console.log(error)
