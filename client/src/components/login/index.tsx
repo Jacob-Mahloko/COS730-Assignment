@@ -10,7 +10,7 @@ import { useStyles } from "./styles";
 
 const Login: React.FC  = () =>{
 
-    const {login} = useLoginActions();
+    const {login,logOutUser} = useLoginActions();
     const {styles, cx}=useStyles();
     const router = useRouter();
     const [form] = Form.useForm();
@@ -18,6 +18,9 @@ const Login: React.FC  = () =>{
 
     useEffect(()=>{
       localStorage.clear();
+      if(logOutUser){
+        logOutUser();
+      }
     },[])
     const onFinish :FormProps<ILogin>["onFinish"] =(values:ILogin)=>{
       setDisable(true)
