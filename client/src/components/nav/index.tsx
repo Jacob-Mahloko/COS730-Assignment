@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Logo from '../../../public/logo.jpg'
 import { useRouter } from 'next/navigation';
 import { useLoginState } from '@/providers/authProvider';
+import Profile from '../profile';
 
 
 const Nav : FC = ()=>{
@@ -22,7 +23,7 @@ const Nav : FC = ()=>{
     if(localStorage.getItem('accessToken')!=null ){
       setLogIn(true)
     }else{
-      setLogIn(false);
+      setLogIn(true);
     }
   })
   
@@ -81,7 +82,7 @@ const Nav : FC = ()=>{
       </Col>
       {open?
         <Drawer title="Profile Details" onClose={onClose} open={open}>
-          {/* <Profile/> */}
+          <Profile/>
         </Drawer>
         :
         <Col className={styles.navUser} onClick={showDrawer}>{state.currentUser?.userName}</Col>
