@@ -1,0 +1,1020 @@
+DEBUG 2024-05-23 01:32:43,500 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-05-23 01:32:45,003 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2024-05-23 01:32:45,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: x10.Web.Host.Startup.x10WebHostModule, x10.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,069 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: x10.x10WebCoreModule, x10.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: x10.x10ApplicationModule, x10.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: x10.x10CoreModule, x10.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,074 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,077 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: x10.EntityFrameworkCore.x10EntityFrameworkModule, x10.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,081 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,082 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,083 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,083 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:45,087 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2024-05-23 01:32:45,586 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-05-23 01:32:45,587 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-05-23 01:32:45,587 [1    ] o.Configuration.LanguageManagementConfig - Converted x10 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-05-23 01:32:45,587 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-05-23 01:32:47,401 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: x10.EntityFrameworkCore.x10DbContext, x10.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:32:47,733 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-05-23 01:32:47,861 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-05-23 01:32:47,892 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-05-23 01:32:47,938 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: x10
+DEBUG 2024-05-23 01:32:47,953 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-05-23 01:32:47,978 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-05-23 01:32:47,999 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[x10.MultiTenancy.Tenant, x10.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[x10.Authorization.Users.User, x10.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2024-05-23 01:32:48,054 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2024-05-23 01:32:48,054 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - x10.Users.Dto.CreateUserDto
+DEBUG 2024-05-23 01:32:48,064 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - x10.Users.Dto.UserDto
+DEBUG 2024-05-23 01:32:48,066 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - x10.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-05-23 01:32:48,067 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - x10.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-05-23 01:32:48,067 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - x10.Roles.Dto.PermissionDto
+DEBUG 2024-05-23 01:32:48,067 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - x10.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-05-23 01:32:48,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - x10.MultiTenancy.Dto.TenantDto
+ERROR 2024-05-23 01:33:03,086 [1    ] .EntityFrameworkCore.Database.Connection - An error occurred using the connection to database 'x10Db' on server 'JAKE\SQLEXPRESS'.
+ERROR 2024-05-23 01:33:03,086 [15   ] .EntityFrameworkCore.Database.Connection - An error occurred using the connection to database 'x10Db' on server 'JAKE\SQLEXPRESS'.
+WARN  2024-05-23 01:33:16,866 [15   ] Abp.BackgroundJobs.BackgroundJobManager  - System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "x10Db" requested by the login. The login failed.
+Login failed for user 'JAKE\polan'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext _, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:7aa6e066-5162-41c5-8ebe-ee2b568800c1
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetContext()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.<GetQueryableAsync>b__8_0(Type key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetQueryableAsync()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllAsync()
+   at Abp.BackgroundJobs.BackgroundJobStore.<>c__DisplayClass8_0.<<GetWaitingJobsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWorkAsync()
+   at Abp.Threading.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.Timer_Elapsed(AbpAsyncTimer timer)
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "x10Db" requested by the login. The login failed.
+Login failed for user 'JAKE\polan'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext _, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:7aa6e066-5162-41c5-8ebe-ee2b568800c1
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetContext()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.<GetQueryableAsync>b__8_0(Type key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetQueryableAsync()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllAsync()
+   at Abp.BackgroundJobs.BackgroundJobStore.<>c__DisplayClass8_0.<<GetWaitingJobsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWorkAsync()
+   at Abp.Threading.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.Timer_Elapsed(AbpAsyncTimer timer)
+FATAL 2024-05-23 01:33:16,888 [1    ] Abp.AbpBootstrapper                      - System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "x10Db" requested by the login. The login failed.
+Login failed for user 'JAKE\polan'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext _, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:7aa6e066-5162-41c5-8ebe-ee2b568800c1
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at x10.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at x10.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at x10.EntityFrameworkCore.x10EntityFrameworkModule.PostInitialize() in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.EntityFrameworkCore\EntityFrameworkCore\x10EntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "x10Db" requested by the login. The login failed.
+Login failed for user 'JAKE\polan'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext _, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:7aa6e066-5162-41c5-8ebe-ee2b568800c1
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at x10.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at x10.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at x10.EntityFrameworkCore.x10EntityFrameworkModule.PostInitialize() in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.EntityFrameworkCore\EntityFrameworkCore\x10EntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+FATAL 2024-05-23 01:33:20,125 [1    ] Microsoft.AspNetCore.Hosting.Diagnostics - Application startup exception
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "x10Db" requested by the login. The login failed.
+Login failed for user 'JAKE\polan'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext _, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:7aa6e066-5162-41c5-8ebe-ee2b568800c1
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at x10.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at x10.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at x10.EntityFrameworkCore.x10EntityFrameworkModule.PostInitialize() in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.EntityFrameworkCore\EntityFrameworkCore\x10EntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction)
+   at x10.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.Web.Host\Startup\Startup.cs:line 86
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.WebTools.BrowserLink.Net.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+ERROR 2024-05-23 01:33:20,136 [1    ] crosoft.Extensions.Hosting.Internal.Host - Hosting failed to start
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "x10Db" requested by the login. The login failed.
+Login failed for user 'JAKE\polan'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext _, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:7aa6e066-5162-41c5-8ebe-ee2b568800c1
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at x10.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at x10.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at x10.EntityFrameworkCore.x10EntityFrameworkModule.PostInitialize() in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.EntityFrameworkCore\EntityFrameworkCore\x10EntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction)
+   at x10.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.Web.Host\Startup\Startup.cs:line 86
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.WebTools.BrowserLink.Net.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+DEBUG 2024-05-23 01:35:18,566 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-05-23 01:35:18,701 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2024-05-23 01:35:18,741 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: x10.Web.Host.Startup.x10WebHostModule, x10.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: x10.x10WebCoreModule, x10.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: x10.x10ApplicationModule, x10.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: x10.x10CoreModule, x10.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,750 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,751 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: x10.EntityFrameworkCore.x10EntityFrameworkModule, x10.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,751 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,752 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,752 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,753 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,753 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,754 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=9.2.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:18,757 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2024-05-23 01:35:18,880 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-05-23 01:35:18,880 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-05-23 01:35:18,880 [1    ] o.Configuration.LanguageManagementConfig - Converted x10 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-05-23 01:35:18,881 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-05-23 01:35:20,012 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: x10.EntityFrameworkCore.x10DbContext, x10.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-05-23 01:35:20,559 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-05-23 01:35:20,681 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-05-23 01:35:20,706 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-05-23 01:35:20,726 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: x10
+DEBUG 2024-05-23 01:35:20,737 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-05-23 01:35:20,758 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-05-23 01:35:20,774 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[x10.MultiTenancy.Tenant, x10.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[x10.Authorization.Users.User, x10.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2024-05-23 01:35:20,832 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2024-05-23 01:35:20,832 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - x10.Users.Dto.CreateUserDto
+DEBUG 2024-05-23 01:35:20,841 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - x10.Users.Dto.UserDto
+DEBUG 2024-05-23 01:35:20,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - x10.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-05-23 01:35:20,844 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - x10.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-05-23 01:35:20,844 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - x10.Roles.Dto.PermissionDto
+DEBUG 2024-05-23 01:35:20,844 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - x10.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-05-23 01:35:20,845 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - x10.MultiTenancy.Dto.TenantDto
+INFO  2024-05-23 01:35:26,084 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (69ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name]
+FROM [AbpEditions] AS [a]
+WHERE [a].[Name] = N'Standard'
+INFO  2024-05-23 01:35:26,084 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (84ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-05-23 01:35:26,627 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (11ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int64), @p8='?' (Size = 32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpEditions] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [IsDeleted], [LastModificationTime], [LastModifierUserId], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+INFO  2024-05-23 01:35:26,777 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:26,885 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:26,923 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (14ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:26,936 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:26,947 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:26,958 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:26,967 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:26,979 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:26,993 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:27,004 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:27,016 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:27,027 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:27,036 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:27,047 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:27,057 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:27,067 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:27,077 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:27,087 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:27,096 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:27,106 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:27,116 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:27,127 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:27,156 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:27,169 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:27,179 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:27,193 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpLanguages] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [DisplayName], [Icon], [IsDeleted], [IsDisabled], [LastModificationTime], [LastModifierUserId], [Name], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:27,243 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE [a].[TenantId] IS NULL AND [a].[Name] = N'Admin'
+INFO  2024-05-23 01:35:27,439 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (14ms) [Parameters=[@p0='?' (Size = 128), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 64), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int64), @p12='?' (Size = 32), @p13='?' (Size = 32), @p14='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpRoles] ([ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [Description], [DisplayName], [IsDefault], [IsDeleted], [IsStatic], [LastModificationTime], [LastModifierUserId], [Name], [NormalizedName], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+INFO  2024-05-23 01:35:27,503 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE [a].[Discriminator] = N'RolePermissionSetting' AND [a].[TenantId] IS NULL AND [a].[RoleId] = @__adminRoleForHost_Id_0
+INFO  2024-05-23 01:35:27,664 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (31ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (Size = 21), @p3='?' (DbType = Boolean), @p4='?' (Size = 128), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int64), @p9='?' (Size = 21), @p10='?' (DbType = Boolean), @p11='?' (Size = 128), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (DbType = DateTime2), @p15='?' (DbType = Int64), @p16='?' (Size = 21), @p17='?' (DbType = Boolean), @p18='?' (Size = 128), @p19='?' (DbType = Int32), @p20='?' (DbType = Int32), @p21='?' (DbType = DateTime2), @p22='?' (DbType = Int64), @p23='?' (Size = 21), @p24='?' (DbType = Boolean), @p25='?' (Size = 128), @p26='?' (DbType = Int32), @p27='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [AbpPermissions] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, 0),
+(@p7, @p8, @p9, @p10, @p11, @p12, @p13, 1),
+(@p14, @p15, @p16, @p17, @p18, @p19, @p20, 2),
+(@p21, @p22, @p23, @p24, @p25, @p26, @p27, 3)) AS i ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId])
+VALUES (i.[CreationTime], i.[CreatorUserId], i.[Discriminator], i.[IsGranted], i.[Name], i.[RoleId], i.[TenantId])
+OUTPUT INSERTED.[Id], i._Position;
+INFO  2024-05-23 01:35:27,720 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE [a].[TenantId] IS NULL AND [a].[UserName] = N'admin'
+INFO  2024-05-23 01:35:28,406 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (DbType = DateTime2), @p7='?' (Size = 256), @p8='?' (Size = 328), @p9='?' (DbType = Boolean), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime2), @p16='?' (DbType = Int64), @p17='?' (DbType = DateTime2), @p18='?' (Size = 64), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 128), @p22='?' (Size = 328), @p23='?' (Size = 32), @p24='?' (Size = 128), @p25='?' (Size = 64), @p26='?' (DbType = Int32), @p27='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpUsers] ([AccessFailedCount], [AuthenticationSource], [ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [EmailConfirmationCode], [IsActive], [IsDeleted], [IsEmailConfirmed], [IsLockoutEnabled], [IsPhoneNumberConfirmed], [IsTwoFactorEnabled], [LastModificationTime], [LastModifierUserId], [LockoutEndDateUtc], [Name], [NormalizedEmailAddress], [NormalizedUserName], [Password], [PasswordResetCode], [PhoneNumber], [SecurityStamp], [Surname], [TenantId], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27);
+INFO  2024-05-23 01:35:28,467 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__eventData_Entity_Id_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[TenantId], [a].[UserId], [a].[UserLinkId], [a].[UserName]
+FROM [AbpUserAccounts] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND [a].[TenantId] IS NULL AND [a].[UserId] = @__eventData_Entity_Id_1
+INFO  2024-05-23 01:35:28,579 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int64), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (DbType = Int64), @p11='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpUserAccounts] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [IsDeleted], [LastModificationTime], [LastModifierUserId], [TenantId], [UserId], [UserLinkId], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:28,653 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpUserRoles] ([CreationTime], [CreatorUserId], [RoleId], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+INFO  2024-05-23 01:35:28,690 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE [a].[Name] = @__name_0 AND [a].[TenantId] IS NULL AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:28,780 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int64), @p4='?' (Size = 256), @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpSettings] ([CreationTime], [CreatorUserId], [LastModificationTime], [LastModifierUserId], [Name], [TenantId], [UserId], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+INFO  2024-05-23 01:35:28,795 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE [a].[Name] = @__name_0 AND [a].[TenantId] IS NULL AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:28,810 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int64), @p4='?' (Size = 256), @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpSettings] ([CreationTime], [CreatorUserId], [LastModificationTime], [LastModifierUserId], [Name], [TenantId], [UserId], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+INFO  2024-05-23 01:35:28,823 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE [a].[Name] = @__name_0 AND [a].[TenantId] IS NULL AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-05-23 01:35:28,837 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int64), @p4='?' (Size = 256), @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpSettings] ([CreationTime], [CreatorUserId], [LastModificationTime], [LastModifierUserId], [Name], [TenantId], [UserId], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+INFO  2024-05-23 01:35:28,872 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConnectionString], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EditionId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenancyName]
+FROM [AbpTenants] AS [a]
+WHERE [a].[TenancyName] = N'Default'
+INFO  2024-05-23 01:35:28,882 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name]
+FROM [AbpEditions] AS [a]
+WHERE [a].[Name] = N'Standard'
+INFO  2024-05-23 01:35:29,006 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 1024), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int64), @p10='?' (Size = 128), @p11='?' (Size = 64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpTenants] ([ConnectionString], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EditionId], [IsActive], [IsDeleted], [LastModificationTime], [LastModifierUserId], [Name], [TenancyName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:29,077 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (21ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE [a].[TenantId] = @___tenantId_0 AND [a].[Name] = N'Admin'
+INFO  2024-05-23 01:35:29,094 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 128), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 64), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int64), @p12='?' (Size = 32), @p13='?' (Size = 32), @p14='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpRoles] ([ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [Description], [DisplayName], [IsDefault], [IsDeleted], [IsStatic], [LastModificationTime], [LastModifierUserId], [Name], [NormalizedName], [TenantId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+INFO  2024-05-23 01:35:29,132 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (18ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE [a].[Discriminator] = N'RolePermissionSetting' AND [a].[TenantId] = @___tenantId_0 AND [a].[RoleId] = @__adminRole_Id_1
+INFO  2024-05-23 01:35:29,163 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (Size = 21), @p3='?' (DbType = Boolean), @p4='?' (Size = 128), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int64), @p9='?' (Size = 21), @p10='?' (DbType = Boolean), @p11='?' (Size = 128), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (DbType = DateTime2), @p15='?' (DbType = Int64), @p16='?' (Size = 21), @p17='?' (DbType = Boolean), @p18='?' (Size = 128), @p19='?' (DbType = Int32), @p20='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [AbpPermissions] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, 0),
+(@p7, @p8, @p9, @p10, @p11, @p12, @p13, 1),
+(@p14, @p15, @p16, @p17, @p18, @p19, @p20, 2)) AS i ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([CreationTime], [CreatorUserId], [Discriminator], [IsGranted], [Name], [RoleId], [TenantId])
+VALUES (i.[CreationTime], i.[CreatorUserId], i.[Discriminator], i.[IsGranted], i.[Name], i.[RoleId], i.[TenantId])
+OUTPUT INSERTED.[Id], i._Position;
+INFO  2024-05-23 01:35:29,224 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (27ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE [a].[TenantId] = @___tenantId_0 AND [a].[UserName] = N'admin'
+INFO  2024-05-23 01:35:29,523 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (DbType = DateTime2), @p7='?' (Size = 256), @p8='?' (Size = 328), @p9='?' (DbType = Boolean), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTime2), @p16='?' (DbType = Int64), @p17='?' (DbType = DateTime2), @p18='?' (Size = 64), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 128), @p22='?' (Size = 328), @p23='?' (Size = 32), @p24='?' (Size = 128), @p25='?' (Size = 64), @p26='?' (DbType = Int32), @p27='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpUsers] ([AccessFailedCount], [AuthenticationSource], [ConcurrencyStamp], [CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [EmailConfirmationCode], [IsActive], [IsDeleted], [IsEmailConfirmed], [IsLockoutEnabled], [IsPhoneNumberConfirmed], [IsTwoFactorEnabled], [LastModificationTime], [LastModifierUserId], [LockoutEndDateUtc], [Name], [NormalizedEmailAddress], [NormalizedUserName], [Password], [PasswordResetCode], [PhoneNumber], [SecurityStamp], [Surname], [TenantId], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27);
+INFO  2024-05-23 01:35:29,564 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (28ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__eventData_Entity_TenantId_0='?' (DbType = Int32), @__eventData_Entity_Id_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[TenantId], [a].[UserId], [a].[UserLinkId], [a].[UserName]
+FROM [AbpUserAccounts] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND [a].[TenantId] = @__eventData_Entity_TenantId_0 AND [a].[UserId] = @__eventData_Entity_Id_1
+INFO  2024-05-23 01:35:29,582 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int64), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (DbType = Int64), @p11='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpUserAccounts] ([CreationTime], [CreatorUserId], [DeleterUserId], [DeletionTime], [EmailAddress], [IsDeleted], [LastModificationTime], [LastModifierUserId], [TenantId], [UserId], [UserLinkId], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+INFO  2024-05-23 01:35:29,609 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpUserRoles] ([CreationTime], [CreatorUserId], [RoleId], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+INFO  2024-05-23 01:35:29,988 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[Icon], [a].[IsDeleted], [a].[IsDisabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId]
+FROM [AbpLanguages] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL)
+INFO  2024-05-23 01:35:30,062 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[UserId] IS NULL AND [a].[TenantId] IS NULL
+INFO  2024-05-23 01:35:30,098 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+INFO  2024-05-23 01:35:31,283 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-05-23 01:35:31,706 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2024-05-23 01:35:31,713 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2024-05-23 01:35:31,718 [1    ] Microsoft.Hosting.Lifetime               - Content root path: C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.Web.Host
+INFO  2024-05-23 01:35:32,085 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - - -
+INFO  2024-05-23 01:35:33,027 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'x10.Web.Host.Controllers.HomeController.Index (x10.Web.Host)'
+INFO  2024-05-23 01:35:33,216 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller x10.Web.Host.Controllers.HomeController (x10.Web.Host).
+INFO  2024-05-23 01:35:33,632 [5    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (48ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2024-05-23 01:35:33,709 [5    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2024-05-23 01:35:33,741 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action x10.Web.Host.Controllers.HomeController.Index (x10.Web.Host) in 497.7645ms
+INFO  2024-05-23 01:35:33,749 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'x10.Web.Host.Controllers.HomeController.Index (x10.Web.Host)'
+INFO  2024-05-23 01:35:33,815 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger - - -
+INFO  2024-05-23 01:35:33,885 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - 302 - - 1793.1327ms
+INFO  2024-05-23 01:35:33,991 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2024-05-23 01:35:34,004 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger - 301 - - 187.1344ms
+INFO  2024-05-23 01:35:34,299 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 304.6903ms
+INFO  2024-05-23 01:35:34,318 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2024-05-23 01:35:34,323 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - -
+INFO  2024-05-23 01:35:34,332 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - - -
+INFO  2024-05-23 01:35:34,357 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - - -
+INFO  2024-05-23 01:35:34,362 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - - -
+INFO  2024-05-23 01:35:34,381 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2024-05-23 01:35:34,403 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript;+charset=utf-8 92.6741ms
+INFO  2024-05-23 01:35:34,423 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - -
+INFO  2024-05-23 01:35:34,509 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2024-05-23 01:35:34,509 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2024-05-23 01:35:34,509 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2024-05-23 01:35:34,509 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2024-05-23 01:35:34,516 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - 200 8029 text/javascript 106.5541ms
+INFO  2024-05-23 01:35:34,520 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - 200 3697 text/javascript 205.6160ms
+INFO  2024-05-23 01:35:34,525 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2024-05-23 01:35:34,530 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - 200 144929 text/css 194.8646ms
+INFO  2024-05-23 01:35:34,543 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 221.7743ms
+INFO  2024-05-23 01:35:34,578 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 208.4366ms
+INFO  2024-05-23 01:35:34,593 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 270.0950ms
+INFO  2024-05-23 01:35:34,824 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2024-05-23 01:35:34,835 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'x10.Web.Host.Controllers.AntiForgeryController.SetCookie (x10.Web.Host)'
+INFO  2024-05-23 01:35:34,875 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2024-05-23 01:35:34,883 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller x10.Web.Host.Controllers.AntiForgeryController (x10.Web.Host).
+INFO  2024-05-23 01:35:34,894 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/favicon-32x32.png - - -
+INFO  2024-05-23 01:35:34,901 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2024-05-23 01:35:34,906 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/favicon-32x32.png - 200 628 image/png 12.0548ms
+INFO  2024-05-23 01:35:34,941 [26   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2024-05-23 01:35:34,956 [26   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-05-23 01:35:34,980 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action x10.Web.Host.Controllers.AntiForgeryController.SetCookie (x10.Web.Host) in 93.0426ms
+INFO  2024-05-23 01:35:34,984 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'x10.Web.Host.Controllers.AntiForgeryController.SetCookie (x10.Web.Host)'
+INFO  2024-05-23 01:35:34,988 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 167.1873ms
+INFO  2024-05-23 01:35:35,356 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 445.5868ms
+INFO  2024-05-23 01:35:36,320 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-05-23 01:35:41,355 [28   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-05-23 01:35:46,376 [28   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-05-23 01:35:51,398 [26   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-05-23 01:35:56,102 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - application/json 54
+INFO  2024-05-23 01:35:56,117 [28   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2024-05-23 01:35:56,124 [28   ] pNetCore.Cors.Infrastructure.CorsService - Request origin https://localhost:44311 does not have permission to access the resource.
+INFO  2024-05-23 01:35:56,138 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'x10.Controllers.TokenAuthController.Authenticate (x10.Web.Core)'
+INFO  2024-05-23 01:35:56,173 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[x10.Models.TokenAuth.AuthenticateResultModel] Authenticate(x10.Models.TokenAuth.AuthenticateModel) on controller x10.Controllers.TokenAuthController (x10.Web.Core).
+INFO  2024-05-23 01:35:56,425 [26   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-05-23 01:35:56,875 [25   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (24ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__normalizedUserNameOrEmailAddress_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND ([a].[NormalizedUserName] = @__normalizedUserNameOrEmailAddress_0 OR [a].[NormalizedEmailAddress] = @__normalizedUserNameOrEmailAddress_0)
+INFO  2024-05-23 01:35:57,386 [26   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[CreationTime], [a].[CreatorUserId], [a].[TenantId], [a].[UserId]
+FROM [AbpUserClaims] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[UserId] = @__p_0
+INFO  2024-05-23 01:35:57,597 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (32ms) [Parameters=[@__ef_filter__p_2='?' (DbType = Boolean), @__ef_filter__p_0='?' (DbType = Boolean), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Name]
+FROM [AbpUserRoles] AS [a]
+INNER JOIN (
+    SELECT [a0].[Id], [a0].[Name]
+    FROM [AbpRoles] AS [a0]
+    WHERE (@__ef_filter__p_2 = CAST(1 AS bit) OR [a0].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_0 = CAST(1 AS bit) OR [a0].[TenantId] IS NULL)
+) AS [t] ON [a].[RoleId] = [t].[Id]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[UserId] = @__user_Id_0
+INFO  2024-05-23 01:35:57,651 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (18ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Name]
+FROM [AbpUserOrganizationUnits] AS [a]
+INNER JOIN (
+    SELECT [a0].[OrganizationUnitId], [a0].[RoleId]
+    FROM [AbpOrganizationUnitRoles] AS [a0]
+    WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a0].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a0].[TenantId] IS NULL)
+) AS [t] ON [a].[OrganizationUnitId] = [t].[OrganizationUnitId]
+INNER JOIN (
+    SELECT [a1].[Id], [a1].[Name]
+    FROM [AbpRoles] AS [a1]
+    WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a1].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a1].[TenantId] IS NULL)
+) AS [t0] ON [t].[RoleId] = [t0].[Id]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[UserId] = @__user_Id_0
+INFO  2024-05-23 01:35:57,701 [28   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (14ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__normalizedName_0='?' (Size = 32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[NormalizedName] = @__normalizedName_0
+INFO  2024-05-23 01:35:57,758 [25   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[CreationTime], [a].[CreatorUserId], [a].[RoleId], [a].[TenantId]
+FROM [AbpRoleClaims] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[RoleId] = @__p_0
+INFO  2024-05-23 01:35:57,880 [25   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (DbType = DateTime2), @p4='?' (Size = 1024), @p5='?' (Size = 1) (DbType = Byte), @p6='?' (Size = 64), @p7='?' (DbType = Int32), @p8='?' (DbType = Int64), @p9='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpUserLoginAttempts] ([BrowserInfo], [ClientIpAddress], [ClientName], [CreationTime], [FailReason], [Result], [TenancyName], [TenantId], [UserId], [UserNameOrEmailAddress])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+INFO  2024-05-23 01:35:57,901 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - application/json 54
+INFO  2024-05-23 01:35:57,907 [18   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2024-05-23 01:35:57,913 [18   ] pNetCore.Cors.Infrastructure.CorsService - Request origin https://localhost:44311 does not have permission to access the resource.
+INFO  2024-05-23 01:35:57,923 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'x10.Controllers.TokenAuthController.Authenticate (x10.Web.Core)'
+INFO  2024-05-23 01:35:57,934 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[x10.Models.TokenAuth.AuthenticateResultModel] Authenticate(x10.Models.TokenAuth.AuthenticateModel) on controller x10.Controllers.TokenAuthController (x10.Web.Core).
+INFO  2024-05-23 01:35:57,971 [28   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__normalizedUserNameOrEmailAddress_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND ([a].[NormalizedUserName] = @__normalizedUserNameOrEmailAddress_0 OR [a].[NormalizedEmailAddress] = @__normalizedUserNameOrEmailAddress_0)
+INFO  2024-05-23 01:35:58,082 [26   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2024-05-23 01:35:58,095 [26   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-05-23 01:35:58,114 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action x10.Controllers.TokenAuthController.Authenticate (x10.Web.Core) in 1935.6331ms
+INFO  2024-05-23 01:35:58,120 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'x10.Controllers.TokenAuthController.Authenticate (x10.Web.Core)'
+INFO  2024-05-23 01:35:58,126 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - 200 - application/json;+charset=utf-8 2025.6173ms
+INFO  2024-05-23 01:35:58,151 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2024-05-23 01:35:58,174 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 21.0188ms
+INFO  2024-05-23 01:35:58,194 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2024-05-23 01:35:58,201 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript;+charset=utf-8 6.3379ms
+INFO  2024-05-23 01:35:58,206 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2024-05-23 01:35:58,258 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 51.4545ms
+INFO  2024-05-23 01:35:58,294 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2024-05-23 01:35:58,302 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2024-05-23 01:35:58,350 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[CreationTime], [a].[CreatorUserId], [a].[TenantId], [a].[UserId]
+FROM [AbpUserClaims] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[UserId] = @__p_0
+INFO  2024-05-23 01:35:58,374 [30   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_2='?' (DbType = Boolean), @__ef_filter__p_0='?' (DbType = Boolean), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Name]
+FROM [AbpUserRoles] AS [a]
+INNER JOIN (
+    SELECT [a0].[Id], [a0].[Name]
+    FROM [AbpRoles] AS [a0]
+    WHERE (@__ef_filter__p_2 = CAST(1 AS bit) OR [a0].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_0 = CAST(1 AS bit) OR [a0].[TenantId] IS NULL)
+) AS [t] ON [a].[RoleId] = [t].[Id]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[UserId] = @__user_Id_0
+INFO  2024-05-23 01:35:58,390 [26   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Name]
+FROM [AbpUserOrganizationUnits] AS [a]
+INNER JOIN (
+    SELECT [a0].[OrganizationUnitId], [a0].[RoleId]
+    FROM [AbpOrganizationUnitRoles] AS [a0]
+    WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a0].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a0].[TenantId] IS NULL)
+) AS [t] ON [a].[OrganizationUnitId] = [t].[OrganizationUnitId]
+INNER JOIN (
+    SELECT [a1].[Id], [a1].[Name]
+    FROM [AbpRoles] AS [a1]
+    WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a1].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a1].[TenantId] IS NULL)
+) AS [t0] ON [t].[RoleId] = [t0].[Id]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[UserId] = @__user_Id_0
+INFO  2024-05-23 01:35:59,031 [30   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+ERROR 2024-05-23 01:35:59,048 [30   ] Mvc.ExceptionHandling.AbpExceptionFilter - A task was canceled.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.FirstOrDefaultAsync(Expression`1 predicate)
+   at Abp.Authorization.Roles.AbpRoleStore`2.<>c__DisplayClass28_0.<<FindByNameAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWorkAsync[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.Authorization.Roles.AbpRoleStore`2.FindByNameAsync(String normalizedName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserClaimsPrincipalFactory`2.GenerateClaimsAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserClaimsPrincipalFactory`1.CreateAsync(TUser user)
+   at Abp.Authorization.AbpUserClaimsPrincipalFactory`2.<>c__DisplayClass2_0.<<CreateAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWorkAsync[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.Authorization.AbpUserClaimsPrincipalFactory`2.CreateAsync(TUser user)
+   at Abp.Authorization.AbpLogInManager`3.CreateLoginResultAsync(TUser user, TTenant tenant)
+   at Abp.Authorization.AbpLogInManager`3.LoginAsyncInternal(String userNameOrEmailAddress, String plainPassword, String tenancyName, Boolean shouldLockout)
+   at Abp.Authorization.AbpLogInManager`3.<>c__DisplayClass37_0.<<LoginAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWorkAsync[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.Authorization.AbpLogInManager`3.LoginAsync(String userNameOrEmailAddress, String plainPassword, String tenancyName, Boolean shouldLockout)
+   at x10.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.Web.Core\Controllers\TokenAuthController.cs:line 72
+   at x10.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in C:\Users\polan\Documents\GitHub\COS730-Assignment\backend\src\x10.Web.Core\Controllers\TokenAuthController.cs:line 43
+   at lambda_method2050(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2024-05-23 01:35:59,068 [25   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (13ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[UserId] = @__userId_0 AND [a].[TenantId] IS NULL
+INFO  2024-05-23 01:35:59,114 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'x10.Web.Host.Controllers.AntiForgeryController.SetCookie (x10.Web.Host)'
+INFO  2024-05-23 01:35:59,126 [25   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller x10.Web.Host.Controllers.AntiForgeryController (x10.Web.Host).
+INFO  2024-05-23 01:35:59,133 [30   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @___sourceName_0='?' (Size = 128), @__CultureInfo_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[Key], [a].[LanguageName], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Source], [a].[TenantId], [a].[Value]
+FROM [AbpLanguageTexts] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[Source] = @___sourceName_0 AND [a].[LanguageName] = @__CultureInfo_Name_1
+INFO  2024-05-23 01:35:59,147 [30   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-05-23 01:35:59,165 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action x10.Controllers.TokenAuthController.Authenticate (x10.Web.Core) in 1224.0136ms
+INFO  2024-05-23 01:35:59,174 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'x10.Controllers.TokenAuthController.Authenticate (x10.Web.Core)'
+INFO  2024-05-23 01:35:59,193 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate - 499 - application/json;+charset=utf-8 1282.3171ms
+INFO  2024-05-23 01:35:59,200 [26   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2024-05-23 01:35:59,218 [26   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-05-23 01:35:59,226 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action x10.Web.Host.Controllers.AntiForgeryController.SetCookie (x10.Web.Host) in 91.3403ms
+INFO  2024-05-23 01:35:59,233 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'x10.Web.Host.Controllers.AntiForgeryController.SetCookie (x10.Web.Host)'
+INFO  2024-05-23 01:35:59,240 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 946.2373ms
+INFO  2024-05-23 01:35:59,252 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 945.7449ms
+INFO  2024-05-23 01:36:01,457 [31   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-05-23 01:36:02,588 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2024-05-23 01:36:02,605 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 17.2717ms
+INFO  2024-05-23 01:36:02,617 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2024-05-23 01:36:02,626 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript;+charset=utf-8 7.7394ms
+INFO  2024-05-23 01:36:02,633 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2024-05-23 01:36:02,662 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 31.4812ms
+INFO  2024-05-23 01:36:02,690 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2024-05-23 01:36:02,697 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'x10.Web.Host.Controllers.AntiForgeryController.SetCookie (x10.Web.Host)'
+INFO  2024-05-23 01:36:02,705 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller x10.Web.Host.Controllers.AntiForgeryController (x10.Web.Host).
+INFO  2024-05-23 01:36:02,714 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2024-05-23 01:36:02,740 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2024-05-23 01:36:02,752 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-05-23 01:36:02,761 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action x10.Web.Host.Controllers.AntiForgeryController.SetCookie (x10.Web.Host) in 48.6461ms
+INFO  2024-05-23 01:36:02,768 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'x10.Web.Host.Controllers.AntiForgeryController.SetCookie (x10.Web.Host)'
+INFO  2024-05-23 01:36:02,776 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 84.0890ms
+INFO  2024-05-23 01:36:02,797 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 84.7686ms
+INFO  2024-05-23 01:36:06,471 [31   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
